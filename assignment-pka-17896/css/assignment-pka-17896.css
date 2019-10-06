@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+
+
+#animation
+{
+    position: absolute;
+    left:45%;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+   
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;  
+}
+#animation1
+{
+    position: absolute;
+    left:30%;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: example1;  
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;  
+}
+#animation2
+{
+    position: absolute;
+    left:60%;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: example2;  
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;  
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   { left:30%; top:0%;}
+    25%  { left:60%; top:0%;}
+    50%  { left:60%; top:0%;}
+    75%  { left:30%; top:0%;}
+    100% { left:30%; top:0%;}
+  }
+   
+  /* Standard syntax */
+  @keyframes example {
+    0%   { left:30%; top:0%;}
+    25%  { left:60%; top:0%;}
+    50%  { left:60%; top:0%;}
+    75%  { left:30%; top:0%;}
+    100% { left:30%; top:0%;}
+  }
+  
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    from {left:40%;}
+    to {left: 80%;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example1 {
+    from {left:40%;}
+    to {left: 80%;}
+  
+  }
+  @-webkit-keyframes example2 {
+    from {left:80%;}
+    to {left: 40%;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example2 {
+    from {left:80%;}
+    to {left: 40%;}
+  }
+
+#footer
+{
+    top:90%;
+    color: black;
+    text-align: center;
+}
+
+#ref
+{
+    color:white;    
+    font-family: 'Montserrat', sans-serif;
+}
+#project
+{
+    color:gold;
+    text-align: justify;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+#first{
+    position: absolute;
+    top: 270px;   
+    left:14%; 
+}
+ 
+#second{
+    position: absolute;   
+    top:0px; 
+    left:0%;
+    height:100%;
+    padding-top: 10%;
+    
+    background-color: rgba(52, 52, 65, 0.8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    }
+
+
+
+/*mobile phones*/
+@media only screen and (min-width:320px)
+{
+
+.col-d-1
+ {
+    width:86%;
+     font-size: 1em;
+     background-color:rgba(20, 155, 209, 0.5);
+
+ }
+ .col-d-2
+{
+    width:14%;
+    font-size: 0.6em;
+   
+}
+.col-d-3
+{
+    max-width:380px;
+    
+}
+.col-d-4
+{
+    width:86%;
+     font-size: 0.6em;
+     background-color:rgba(20, 155, 209, 0.5);
+    
+}
+}
+/*tablet*/
+@media only screen and (min-width:768px)
+{
+[class*="col-t-"]
+{
+    font-size: 1em;
+   
+ }
+ .col-d-1
+ {
+    width:86%;
+     font-size: 1.5em;
+     background-color:rgba(20, 155, 209, 0.5);
+ }
+.col-d-2
+{    
+    width:14%; 
+    font-size: 1.0em; 
+    
+   
+}
+.col-d-3
+{
+    max-width:500px;
+    
+}
+.col-d-4
+{
+    width:86%;
+     font-size: 1em;
+     background-color:rgba(20, 155, 209, 0.5);
+    
+}
+}
+/*desktop*/
+@media only screen and (min-width:960px)
+{
+ 
+ .col-d-1
+ {
+     width:86%;
+     font-size: 1.5em;
+     background-color:rgba(20, 155, 209, 0.5);
+
+ }
+ .col-d-2
+{
+    width:14%;
+    font-size: 1.5em;
+    
+}
+.col-d-3
+{
+    max-width:700px;
+    
+}
+.col-d-4
+{
+    width:86%;
+     font-size: 1.3em;
+     background-color:rgba(20, 155, 209, 0.5);
+    
+}
+}
+.para
+{
+    color:white;
+    text-align: center;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url("../img/5.jpeg");
+    background-size: cover;
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;;
+    color: white;
+    text-align: center;
+    
+}
+
+ul li{
+    color:white;
+ 
+}
+img
+{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+figcaption
+{
+    text-align: center;
+    font-size: .8em;
+    color: white;
+}
+ a{
+    color:white;
+    
+   
+    text-decoration: none;
+   
+}
+
+table{
+    position: absolute;
+    color:white;
+    border-style:solid;
+    left:30px;
+    table-layout: auto;
+    background-color:rgba(20, 155, 209, 0.4);
+      border-collapse: collapse;
+    
+}
+td{
+    border:2mm;
+  
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+  
+    padding:15px;
+     
+   
+
+}
+th
+{ 
+    color:yellow;
+    background-color:rgba(7, 9, 10, 0.5);  
+    border:2mm;
+  
+   border-color:black;
+    border-style: solid;
+  
+}
+
