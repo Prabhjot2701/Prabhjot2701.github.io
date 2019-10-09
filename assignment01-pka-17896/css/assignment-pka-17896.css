@@ -225,6 +225,11 @@
     
     font-family: 'Montserrat', sans-serif;
 }
+button
+{
+    position: absolute;
+    left:30%;
+}
 body{
     background-image: url("../img/5.jpeg");
     background-size: cover;
